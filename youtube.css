@@ -1,8 +1,10 @@
 /** THIS IS A HACK. Reason is transform is not showing in IE9 inspector **/
+
 html.ie9 .youtube-vid-play{
 	margin-left:-40px;
 	margin-top:-20px;
 }
+
 /*********************************************/
 
 .youtube-container{

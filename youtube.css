@@ -1,0 +1,78 @@
+/** THIS IS A HACK. Reason is transform is not showing in IE9 inspector **/
+html.ie9 .youtube-vid-play{
+	margin-left:-40px;
+	margin-top:-20px;
+}
+/*********************************************/
+
+.youtube-container{
+	width:100%	
+}
+
+#youtube-vid-play img{
+	margin: 0 0.5em -0.2em 0.5em;
+}
+
+.image-container{
+	width:100%;
+	margin:auto;
+}
+
+.vid-container {
+    position: relative;
+    padding-bottom: 26.8%;
+    padding-top: 30px; 
+    height: auto; 
+    overflow: hidden;
+    width:65%;
+    border: 1px solid #666666;
+    margin:auto;
+    max-width:50em;
+}
+ 
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#lightbox{
+	position:absolute;
+	top: 20%;
+	width: 98%;
+	z-index: 5000;
+	display:none;
+	margin:auto;
+	padding: 0 2px;
+}
+
+#lightbox-bg{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background: #000;
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+	z-index: 4000;
+	display:none;
+}
+
+@media screen and (max-width: 769px){
+	.vid-container{
+		width: 100%;
+	}
+	
+	#youtube-vid-play img{
+		width:1.2em;
+	}
+}
+
+
